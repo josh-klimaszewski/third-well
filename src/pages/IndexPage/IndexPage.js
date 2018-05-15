@@ -1,9 +1,15 @@
 import React from 'react';
+import Nav from '../../components/Nav';
 import './style.css';
 
 const IndexPage = () => {
     return (
-        <div>Index</div> 
+        <div className="index-page">
+            <Nav />
+            <main>
+                Index
+            </main>
+        </div> 
        );
 }
 

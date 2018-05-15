@@ -3,7 +3,7 @@ import './style.css';
 
 const UpdatesPage = () => {
     return (
-        <div>Updates</div> 
+        <div className="updates-page">Updates</div> 
        );
 }
 
