@@ -1,9 +1,28 @@
 nav {
   position: fixed;
   z-index: 2;
+  top: 0;
   width: 100vw;
-  display: flex;
-  align-items: center;
-  flex-direction: column; }
+  background-color: white;
+  height: 120px; }
+  nav .logo-container {
+    height: 60px; }
   nav .menu {
-    display: flex; }
+    background-color: white;
+    height: 60px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: 12, 1fr;
+    grid-template-areas: "home about contact updates blank blank social social social social"; }
+    nav .menu div {
+      display: flex;
+      align-items: center; }
+    nav .menu .home {
+      grid-area: home; }
+    nav .menu .about {
+      grid-area: about; }
+    nav .menu .contact {
+      grid-area: contact; }
+    nav .menu .updates {
+      grid-area: updates; }

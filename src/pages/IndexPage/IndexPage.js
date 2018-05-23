@@ -6,9 +6,7 @@ const IndexPage = () => {
     return (
         <div className="index-page">
             <Nav />
-            <main>
-                Index
-            </main>
+            <main></main>
         </div> 
        );
 }
