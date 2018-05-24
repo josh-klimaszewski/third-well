@@ -1,2 +1,36 @@
 .contact-page {
-  min-height: 100vh; }
+  min-height: 100vh;
+  margin: 0 20%;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 6fr;
+  align-items: center; }
+  .contact-page .title {
+    text-align: center; }
+  .contact-page .description {
+    text-align: center; }
+  .contact-page .form {
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px; }
+    .contact-page .form .name {
+      grid-row: 1;
+      grid-column: 1 / span 2; }
+    .contact-page .form .email {
+      grid-row: 1;
+      grid-column: 3 / span 2; }
+    .contact-page .form .phone {
+      grid-row: 1;
+      grid-column: 5 / span 2; }
+    .contact-page .form .company {
+      grid-column: 1 / span 3; }
+    .contact-page .form .position {
+      grid-column: 4 / span 3; }
+    .contact-page .form .message {
+      grid-row: 3 / span 2;
+      grid-column: 1 / -1; }
+    .contact-page .form .submit {
+      grid-column: 3 / span 2; }

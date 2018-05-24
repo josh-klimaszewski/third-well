@@ -1,2 +1,11 @@
 .updates-page {
-  min-height: 100vh; }
+  padding-top: 120px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 7fr; }
+  .updates-page .title {
+    text-align: center; }
+  .updates-page .updates-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column; }

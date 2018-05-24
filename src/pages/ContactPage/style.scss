@@ -1,3 +1,52 @@
 .contact-page {
     min-height: 100vh;
+    margin: 0 20%;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 6fr;
+    align-items: center;
+    
+    .title {
+        text-align: center;
+        
+    }
+    .description {
+        text-align: center;
+    }
+    .form {
+        
+        height: 80%;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 10px;
+        
+        .name {
+            grid-row: 1;
+            grid-column: 1 / span 2;
+        }
+        .email {
+            grid-row: 1;
+            grid-column: 3 / span 2;
+        }
+        .phone {
+            grid-row: 1;
+            grid-column: 5 / span 2;
+
+        }
+        .company {
+            grid-column: 1 / span 3;
+        }
+        .position {
+            grid-column: 4 / span 3;
+        }
+        .message {
+            grid-row: 3 / span 2;
+            grid-column: 1 / -1;
+        }
+        .submit {
+            grid-column: 3 / span 2;
+        }
+    }
 }
