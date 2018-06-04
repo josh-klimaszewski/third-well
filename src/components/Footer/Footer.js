@@ -4,7 +4,7 @@ import './style.css';
 const Footer = () => {
     return (
         <div className="footer">
-        footer
+        <p class="footertext">Some sort of bold statement.</p>
         </div> 
        );
 }

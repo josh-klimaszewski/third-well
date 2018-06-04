@@ -3,7 +3,7 @@ nav {
     z-index: 2;
     top: 0;
     width: 100vw;
-    background-color: white;
+    background-color: rgb(18, 8, 168);
     height: 120px;
    
     
@@ -12,13 +12,11 @@ nav {
         
     }
     .menu {
-        background-color: white;
+        background-color: #2672f9;
         height: 60px;
-        
-        border-bottom: 1px solid black;
-        border-top: 1px solid black;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
         display: grid;
-        
         grid-template-columns: (12, 1fr);
         grid-template-areas:
         "home about contact updates blank blank social social social social";
@@ -29,15 +27,45 @@ nav {
         }
         .home {
             grid-area: home;
+            margin-left: 20px;
+            color: white;
+            letter-spacing: .5px;
+            font-weight: lighter;
+        }
+        .home:hover {
+            color: rgb(18, 8, 168);
+            font-weight: normal;
         }
         .about {
             grid-area: about;
+            color: white;
+            letter-spacing: .5px;
+            font-weight: lighter;
+        }
+        .about:hover {
+            color: rgb(18, 8, 168);
+            font-weight: normal;
         }
         .contact {
             grid-area: contact;
+            color: white;
+            letter-spacing: .5px;
+            font-weight: lighter;
+        }
+        .contact:hover {
+            color: rgb(18, 8, 168);
+            font-weight: normal;
         }
         .updates {
             grid-area: updates;
+            color: white;
+            letter-spacing: .5px;
+            font-weight: lighter;
+
+        }
+        .updates:hover{
+            color:rgb(18, 8, 168);
+            font-weight: normal;
         }
         
     }

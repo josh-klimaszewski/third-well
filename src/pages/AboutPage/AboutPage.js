@@ -57,7 +57,7 @@ const AboutPage = () => {
             </div>
             <div className="item4">
                 <div className="title1">Value Proposition</div>
-                <div className="title2">NAICS & Product Codes></div>
+                <div className="title2">NAICS & Product Codes</div>
                 <div className="chart">chart</div>
                 <div className="text">
                     <ul>
