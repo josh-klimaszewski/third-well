@@ -9,10 +9,10 @@
     
     .title {
         text-align: center;
-        font-family: "Roboto Slab";
-        font-size: 30px;
-        color: rgb(18, 8, 168);
-        margin-top: -30px;
+        font-family: "Francois One";
+        font-size: 35px;
+        color: gray;
+        margin-top: 50px;
         
     }
     .description {
@@ -20,7 +20,7 @@
         margin-top: -100px;
     }
     .form {
-        margin-top: -130px;
+        margin-top: -260px;
         height: 80%;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -43,6 +43,7 @@
         .email {
             grid-row: 1;
             grid-column: 3 / span 2;
+            padding: 1px 10px;
         }
         .phone {
             grid-row: 1;
@@ -51,9 +52,11 @@
         }
         .company {
             grid-column: 1 / span 3;
+            margin-top: -30px;
         }
         .position {
             grid-column: 4 / span 3;
+            margin-top: -30px;
         }
         .message {
             grid-row: 3 / span 2;
@@ -62,10 +65,13 @@
             border: none;
             padding-left: 10px;
             padding-top: 10px;
-            margin-top: -10px;
+            margin-top: -60px;
+            height: 150px;
         }
         .submit {
             grid-column: 3 / span 2;
+            margin-top: -60px;
         }
+        @import url('https://fonts.googleapis.com/css?family=Francois+One');
     }
 }

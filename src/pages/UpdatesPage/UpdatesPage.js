@@ -6,7 +6,7 @@ import './style.css';
 const UpdatesPage = () => {
     return (
         <div className="updates-page">
-            <div className="title">Updates</div>
+            <div className="title1">UPDATES</div>
             <Updates />
         </div> 
        );

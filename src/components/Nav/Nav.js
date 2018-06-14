@@ -48,7 +48,12 @@ class Nav extends Component {
                 this.nav = elem;
               }}
             >
-               <div className="logo-container"></div>
+               <div className="logo-container">
+               <img src="assets/logo.png" class="navlogo" onClick={(e) => this.scrollToPage('.index-page')}/>
+               <div class="wavebox">
+               <img src="assets/wave.png" class="wave"/>
+               </div>
+               </div>
                 <div className="menu">
                 <div
                     className="home active"
@@ -74,8 +79,6 @@ class Nav extends Component {
                     >
                     Updates
                     </div>
-                    
-                    
                 </div>
                 <div className="menu-border"></div>
             </nav>

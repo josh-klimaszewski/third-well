@@ -4,7 +4,7 @@ import './style.css';
 const ContactPage = () => {
     return (
         <div className="contact-page">
-            <div className="title">Contact Us</div>
+            <div className="title">CONTACT US</div>
             <div className="description">
             We are always looking to build new industry relationshps.
             </div>

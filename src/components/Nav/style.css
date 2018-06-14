@@ -3,13 +3,25 @@ nav {
   z-index: 2;
   top: 0;
   width: 100vw;
-  background-color: #1208a8;
+  background-color: #2672f9;
   height: 120px; }
   nav .logo-container {
-    height: 60px; }
+    height: 80px;
+    text-align: left; }
+  nav .navlogo {
+    height: 120px;
+    width: auto; }
+  nav .wave {
+    height: 70px;
+    width: auto; }
+  nav .wavebox {
+    text-align: right;
+    margin-top: -80px;
+    margin-right: 15px; }
   nav .menu {
-    background-color: #2672f9;
-    height: 60px;
+    background-color: rgba(18, 8, 168, 0.5);
+    height: 50px;
+    margin-top: 40px;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
     display: grid;
@@ -20,20 +32,20 @@ nav {
       align-items: center; }
     nav .menu .home {
       grid-area: home;
-      margin-left: 20px;
       color: white;
-      letter-spacing: .5px;
-      font-weight: lighter; }
+      margin-left: 15px; }
     nav .menu .home:hover {
-      color: #1208a8;
-      font-weight: normal; }
+      color: #2672f9; }
+    nav .menu .navlogo {
+      width: 90px;
+      height: auto; }
     nav .menu .about {
       grid-area: about;
       color: white;
       letter-spacing: .5px;
       font-weight: lighter; }
     nav .menu .about:hover {
-      color: #1208a8;
+      color: #2672f9;
       font-weight: normal; }
     nav .menu .contact {
       grid-area: contact;
@@ -41,7 +53,7 @@ nav {
       letter-spacing: .5px;
       font-weight: lighter; }
     nav .menu .contact:hover {
-      color: #1208a8;
+      color: #2672f9;
       font-weight: normal; }
     nav .menu .updates {
       grid-area: updates;
@@ -49,5 +61,5 @@ nav {
       letter-spacing: .5px;
       font-weight: lighter; }
     nav .menu .updates:hover {
-      color: #1208a8;
+      color: #2672f9;
       font-weight: normal; }

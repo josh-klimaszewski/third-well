@@ -5,9 +5,9 @@ const AboutPage = () => {
     return (
         <div className="about-page">
             <div className="item1">
-                <div className="title">About Us</div>
-                <div className="image">image</div>
+                <div className="image"><img src="assets/hands.jpg" class="aboutpic"/></div>
                 <div className="text">
+                <div className="title">ABOUT US</div>
                 Third Well, LLC is a veteran owned, business development and 
                 market execution-based consulting company. Third Well assists 
                 tier supply manufacturers across a wide variety of industries, 
@@ -25,8 +25,8 @@ const AboutPage = () => {
                 </div>
             </div>
             <div className="item2">
-                <div className="title">Core Competencies</div>
                 <div className="text">
+                <div className="title">CORE COMPETENCIES</div>
                     <ul>
                         <li>Manufacturer’s Representation</li>
                         <li>Business Development Consulting</li>
@@ -42,12 +42,12 @@ const AboutPage = () => {
                         <li>Market Development</li>
                     </ul>
                 </div>
-                <div className="image">image</div>
+                <div className="image"> <img src="assets/space.jpg" class="corepic"/></div>
             </div>
             <div className="item3">
-                <div className="title">Industry Experience</div>
-                <div className="image">image</div>
+                <div className="image"><img src="assets/rocketship.jpg" class="industrypic"/></div>
                 <div className="text">
+                <div className="title">INDUSTRY EXPERIENCE</div>
                     <ul>
                         <li>Composite Applications for: Aerospace, Automotive, Specialty & Defense Vehicles</li>
                         <li>Facility Design & Continuous Improvement for: Automotive paint systems, torque conversion and powertrain manufacturing</li>
@@ -56,9 +56,9 @@ const AboutPage = () => {
                 </div>
             </div>
             <div className="item4">
-                <div className="title1">Value Proposition</div>
-                <div className="title2">NAICS & Product Codes</div>
-                <div className="chart">chart</div>
+                <div className="title1">VALUE PROPOSITION</div>
+                <div className="title2">NAICS & PRODUCT CODES</div>
+                <div className="chart"><img src="assets/chart.jpg" class="chartpic"/></div>
                 <div className="text">
                     <ul>
                         <li>42510		Wholesale Trade Agents</li>
