@@ -38,3 +38,16 @@
   margin-bottom: 8px;
   width: auto;
   padding: 0px 10px 10px 10px; }
+
+@media screen and (max-width: 450px) {
+  .footer {
+    width: 100%;
+    font-size: 30px; }
+  .twitter {
+    width: 40px; }
+  .facebook {
+    width: 40px; }
+  .linkedin {
+    width: 40px; }
+  .email {
+    height: 40px; } }

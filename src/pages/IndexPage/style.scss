@@ -5,6 +5,17 @@
         height: inherit;
         background: url("https://preview.ibb.co/dwV4kJ/rawpixel_678089_unsplash.jpg") center bottom;
         background-size: cover;
-        height: 100%;
+        width: 100%;
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 450px) {
+        main {
+            width: 120%;
+        }
+    }
+    @media screen and (min-width: 750px) and (max-width: 800px) {
+        main {
+            width: 150%;
+        }
     }
 }

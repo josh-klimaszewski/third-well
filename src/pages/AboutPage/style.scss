@@ -161,9 +161,154 @@
             width: 500px;
         }
     }
-    // @font-face {
-    //     font-family: 'Roboto Slab';
-    //     src: url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-    // }
+    @media screen and (min-width: 300px) and (max-width: 450px) {
+        .about-page {
+            grid-template-rows: repeat(13);
+            grid-template-columns: repeat (1);
+            
+            .item1{
+                border: none;
+                .title{
+                grid-row: 2;
+                width: 350px;
+                }
+                .text{
+                    grid-row: 3;
+                    text-align: left;
+                    margin-left: -340px;
+                    width: 320px;
+                    padding-bottom: 15px;
+                }
+                .image{
+                    grid-row: 1;
+                
+                }
+                .aboutpic {
+                    width: 320px;
+                    height: auto; 
+                }
+            }
+            .item2{
+                width: 350px;
+                border: none;
+                 .title{
+                grid-row: 5;
+                }
+                    .text{
+                    grid-row: 6;
+                    margin-left: -30px;
+                    width: 320px;
+                }
+                    .image{
+                    grid-row: 4;
+                    margin-left: -335px;
+                    margin-top: -20px;
+                }
+                    .corepic {
+                    width: 320px;
+                }
+            }
+            .item3{
+                width: 350px;
+                border: none;
+                margin-top: -50px;
+    
+                .title{
+                    grid-row: 8;
+                }
+                .text{
+                    grid-row: 9;
+                    width: 300px;
+                    margin-left: -380px;
+                }
+                .image{
+                    grid-row: 7;
+                
+                }
+                .industrypic {
+                    width: 320px;
+                }
+            }
+            .item4 {
+                width: 350px;
+                border: none;
+                .title1 {
+                    grid-row: 10;
+                    text-align: left;
+                    margin-top: -90px;
+                }
+                .chart {
+                    grid-row: 11;
+                }
+                .chartpic {
+                    width: 330px;
+                    margin-left: -30px;
+                    margin-top: -60px;
+    
+                }
+                .title2 {
+                    grid-row: 12;
+                    margin-left: -350px;
+                    width: 350px;
+                }
+                .text{
+                    grid-row: 13;
+                    margin-left: -370px;
+                    width: 320px;
+                }
+        }
+    }
+    }
+    @media screen and (min-width: 750px) and (max-width: 800px) {
+        .item1 {
+            border: none;
+            .aboutpic {
+                width: 550px;
+            }
+            .text {
+                margin-left: 70px;
+                width: 350px;
+                height: 400px;
+            }
+        }
+        .item2 {
+            border: none;
+            margin-top: 80px;
+            .corepic {
+                width: 550px;
+                height: auto;
+            }
+            .image {
+                margin-left: 140px;
+                margin-top: 0px
+            }
+            .text {
+                width: 300px;
+                margin-top: 20px;
+            }
+        }
+        .item3 {
+            border: none;
+            margin-top: 30px;
+            .text {
+                width: 450px;
+            }
+            .industrypic {
+                width: 550px;
+            }
+        }
+        .item4 {
+            border: none;
+            margin-top: 30px;
+            .title2 {
+                margin-left: 150px;
+            }
+            .text {
+                margin-left: 100px;
+            }
+        }
+
+    }
     @import url('https://fonts.googleapis.com/css?family=Francois+One');
 }
+

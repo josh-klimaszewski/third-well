@@ -56,3 +56,27 @@
     .contact-page .form .submit {
       grid-column: 3 / span 2;
       margin-top: -60px; }
+  @media screen and (min-width: 300px) and (max-width: 450px) {
+    .contact-page {
+      width: 330px;
+      margin: 0 auto; }
+      .contact-page .title {
+        margin-top: 60px;
+        margin-left: 90px; }
+      .contact-page .description {
+        margin-top: -80px;
+        margin-left: 90px; }
+      .contact-page .form {
+        margin-left: 40px;
+        width: 100%; } }
+  @media screen and (min-width: 300px) and (max-width: 370px) {
+    .contact-page .form {
+      margin-left: 30px; }
+    .contact-page .title {
+      margin-left: 30px; }
+    .contact-page .description {
+      margin-left: 30px; } }
+  @media screen and (min-width: 750px) and (max-width: 800px) {
+    .contact-page .form {
+      width: 900px;
+      height: 600px; } }

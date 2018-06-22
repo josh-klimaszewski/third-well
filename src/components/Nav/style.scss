@@ -2,8 +2,7 @@ nav {
     position: fixed;
     z-index: 2;
     top: 0;
-    width: 100vw;
-    
+    width: 100%;
     background-color: #2672f9;
     height: 120px;
    
@@ -85,6 +84,25 @@ nav {
             font-weight: normal;
         }
         
+    }
+
+    @media screen and (max-width: 450px) {
+   
+        .wave {
+            height: 40px;
+            width: auto;
+        }
+        .wavebox {
+            text-align: right;
+            margin-top: -50px;
+            margin-right: 10px;
+        }
+    }
+    @media screen and (max-width: 350px) {
+        .wavebox {
+            margin-right: 20px;
+        }
+
     }
 
 }

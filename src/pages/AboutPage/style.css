@@ -135,3 +135,108 @@
       grid-column: 3;
       margin-top: -25px;
       width: 500px; }
+  @media screen and (min-width: 300px) and (max-width: 450px) {
+    .about-page .about-page {
+      grid-template-rows: repeat(13);
+      grid-template-columns: repeat 1; }
+      .about-page .about-page .item1 {
+        border: none; }
+        .about-page .about-page .item1 .title {
+          grid-row: 2;
+          width: 350px; }
+        .about-page .about-page .item1 .text {
+          grid-row: 3;
+          text-align: left;
+          margin-left: -340px;
+          width: 320px;
+          padding-bottom: 15px; }
+        .about-page .about-page .item1 .image {
+          grid-row: 1; }
+        .about-page .about-page .item1 .aboutpic {
+          width: 320px;
+          height: auto; }
+      .about-page .about-page .item2 {
+        width: 350px;
+        border: none; }
+        .about-page .about-page .item2 .title {
+          grid-row: 5; }
+        .about-page .about-page .item2 .text {
+          grid-row: 6;
+          margin-left: -30px;
+          width: 320px; }
+        .about-page .about-page .item2 .image {
+          grid-row: 4;
+          margin-left: -335px;
+          margin-top: -20px; }
+        .about-page .about-page .item2 .corepic {
+          width: 320px; }
+      .about-page .about-page .item3 {
+        width: 350px;
+        border: none;
+        margin-top: -50px; }
+        .about-page .about-page .item3 .title {
+          grid-row: 8; }
+        .about-page .about-page .item3 .text {
+          grid-row: 9;
+          width: 300px;
+          margin-left: -380px; }
+        .about-page .about-page .item3 .image {
+          grid-row: 7; }
+        .about-page .about-page .item3 .industrypic {
+          width: 320px; }
+      .about-page .about-page .item4 {
+        width: 350px;
+        border: none; }
+        .about-page .about-page .item4 .title1 {
+          grid-row: 10;
+          text-align: left;
+          margin-top: -90px; }
+        .about-page .about-page .item4 .chart {
+          grid-row: 11; }
+        .about-page .about-page .item4 .chartpic {
+          width: 330px;
+          margin-left: -30px;
+          margin-top: -60px; }
+        .about-page .about-page .item4 .title2 {
+          grid-row: 12;
+          margin-left: -350px;
+          width: 350px; }
+        .about-page .about-page .item4 .text {
+          grid-row: 13;
+          margin-left: -370px;
+          width: 320px; } }
+  @media screen and (min-width: 750px) and (max-width: 800px) {
+    .about-page .item1 {
+      border: none; }
+      .about-page .item1 .aboutpic {
+        width: 550px; }
+      .about-page .item1 .text {
+        margin-left: 70px;
+        width: 350px;
+        height: 400px; }
+    .about-page .item2 {
+      border: none;
+      margin-top: 80px; }
+      .about-page .item2 .corepic {
+        width: 550px;
+        height: auto; }
+      .about-page .item2 .image {
+        margin-left: 140px;
+        margin-top: 0px; }
+      .about-page .item2 .text {
+        width: 300px;
+        margin-top: 20px; }
+    .about-page .item3 {
+      border: none;
+      margin-top: 30px; }
+      .about-page .item3 .text {
+        width: 450px; }
+      .about-page .item3 .industrypic {
+        width: 550px; }
+    .about-page .item4 {
+      border: none;
+      margin-top: 30px; }
+      .about-page .item4 .title2 {
+        margin-left: 150px; }
+      .about-page .item4 .text {
+        margin-left: 100px; } }
