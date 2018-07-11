@@ -9,7 +9,7 @@
     font-family: 'Oswald';
     font-size: 35px;
     color: white; 
-}
+
 .footertext {
     margin-bottom: 8px;
     margin-top: 5px;
@@ -44,21 +44,22 @@
 // }
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-@media screen and (max-width: 450px){
-    .footer {
-        width: 100%;
-        font-size: 30px;
-    }
-    .twitter {
-        width: 40px;
-    }
-    .facebook {
-        width: 40px;
-    }
-    .linkedin {
-        width: 40px;
-    }
-    .email {
-        height: 40px;
-    }
+// @media screen and (max-width: 450px){
+//     .footer {
+//         width: 100%;
+//         font-size: 30px;
+//     }
+//     .twitter {
+//         width: 40px;
+//     }
+//     .facebook {
+//         width: 40px;
+//     }
+//     .linkedin {
+//         width: 40px;
+//     }
+//     .email {
+//         height: 40px;
+//     }
+// }
 }

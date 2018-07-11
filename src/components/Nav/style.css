@@ -63,14 +63,3 @@ nav {
     nav .menu .updates:hover {
       color: #2672f9;
       font-weight: normal; }
-  @media screen and (max-width: 450px) {
-    nav .wave {
-      height: 40px;
-      width: auto; }
-    nav .wavebox {
-      text-align: right;
-      margin-top: -50px;
-      margin-right: 10px; } }
-  @media screen and (max-width: 350px) {
-    nav .wavebox {
-      margin-right: 20px; } }

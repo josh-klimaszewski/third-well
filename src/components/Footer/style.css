@@ -10,44 +10,26 @@
   font-family: 'Oswald';
   font-size: 35px;
   color: white; }
-
-.footertext {
-  margin-bottom: 8px;
-  margin-top: 5px; }
-
-.twitter {
-  width: 45px;
-  height: auto;
-  margin-bottom: 8px;
-  padding: 0px 10px 10px 10px; }
-
-.facebook {
-  width: 45px;
-  height: auto;
-  margin-bottom: 8px;
-  padding: 0px 10px 10px 10px; }
-
-.linkedin {
-  width: 45px;
-  height: auto;
-  margin-bottom: 8px;
-  padding: 0px 10px 10px 10px; }
-
-.email {
-  height: 45px;
-  margin-bottom: 8px;
-  width: auto;
-  padding: 0px 10px 10px 10px; }
-
-@media screen and (max-width: 450px) {
-  .footer {
-    width: 100%;
-    font-size: 30px; }
-  .twitter {
-    width: 40px; }
-  .facebook {
-    width: 40px; }
-  .linkedin {
-    width: 40px; }
-  .email {
-    height: 40px; } }
+  .footer .footertext {
+    margin-bottom: 8px;
+    margin-top: 5px; }
+  .footer .twitter {
+    width: 45px;
+    height: auto;
+    margin-bottom: 8px;
+    padding: 0px 10px 10px 10px; }
+  .footer .facebook {
+    width: 45px;
+    height: auto;
+    margin-bottom: 8px;
+    padding: 0px 10px 10px 10px; }
+  .footer .linkedin {
+    width: 45px;
+    height: auto;
+    margin-bottom: 8px;
+    padding: 0px 10px 10px 10px; }
+  .footer .email {
+    height: 45px;
+    margin-bottom: 8px;
+    width: auto;
+    padding: 0px 10px 10px 10px; }

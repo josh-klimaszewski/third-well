@@ -73,43 +73,43 @@
             margin-top: -60px;
         }
     }
-
-    @media screen and (min-width: 300px) and (max-width: 450px){
-        width: 330px;
-        margin: 0 auto;
-        
-        .title {
-            margin-top: 60px;
-            margin-left: 90px;
-        }
-        .description {
-            margin-top: -80px;
-            margin-left: 90px;
-        }
-        .form {
-            margin-left: 40px;
-            width: 100%;
-
-        }
-    } 
-    
-    @media screen and (min-width: 300px) and (max-width: 370px) {
-        .form {
-            margin-left: 30px;
-        }
-        .title {
-            margin-left: 30px;
-        }
-        .description{
-            margin-left: 30px;
-        }
-    }
     @media screen and (min-width: 750px) and (max-width: 800px) {
         .form {
             width: 900px;
             height: 600px;
         }
     }
+    // @media screen and (min-width: 300px) and (max-width: 450px){
+    //     width: 330px;
+    //     margin: 0 auto;
+        
+    //     .title {
+    //         margin-top: 60px;
+    //         margin-left: 90px;
+    //     }
+    //     .description {
+    //         margin-top: -80px;
+    //         margin-left: 90px;
+    //     }
+    //     .form {
+    //         margin-left: 40px;
+    //         width: 100%;
+
+    //     }
+    // } 
+    
+    // @media screen and (min-width: 300px) and (max-width: 370px) {
+    //     .form {
+    //         margin-left: 30px;
+    //     }
+    //     .title {
+    //         margin-left: 30px;
+    //     }
+    //     .description{
+    //         margin-left: 30px;
+    //     }
+    // }
+
 
     @import url('https://fonts.googleapis.com/css?family=Francois+One');
 }

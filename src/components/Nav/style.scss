@@ -86,23 +86,23 @@ nav {
         
     }
 
-    @media screen and (max-width: 450px) {
+    // @media screen and (max-width: 450px) {
    
-        .wave {
-            height: 40px;
-            width: auto;
-        }
-        .wavebox {
-            text-align: right;
-            margin-top: -50px;
-            margin-right: 10px;
-        }
-    }
-    @media screen and (max-width: 350px) {
-        .wavebox {
-            margin-right: 20px;
-        }
+    //     .wave {
+    //         height: 40px;
+    //         width: auto;
+    //     }
+    //     .wavebox {
+    //         text-align: right;
+    //         margin-top: -50px;
+    //         margin-right: 10px;
+    //     }
+    // }
+    // @media screen and (max-width: 350px) {
+    //     .wavebox {
+    //         margin-right: 20px;
+    //     }
 
-    }
+    // }
 
 }
